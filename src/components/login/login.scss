@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(#FF6000, #454545);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 489px;
+    margin: 6rem auto 8rem auto;
+    width: 330px;
+}
+
+#card-content {
+    padding: 12px 44px;
+}
+
+#card-title {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#signup {
+    color: #FF6000;
+    font-family: "Roboto", sans-serif;
+    font-size: 10pt;
+    letter-spacing: 0px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#submit-btn {
+    background: -webkit-linear-gradient(right, #FFA559, #FF6000);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #FF6000;
+    cursor: pointer;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+}
+
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px #eb5d05;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    background: -webkit-linear-gradient(right, #FFE6C7, #FFA559);
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 4px;
+}
+
+.underline-title {
+    background: -webkit-linear-gradient(right, #FFE6C7, #FFA559);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+    margin-bottom: 18px;
+}
