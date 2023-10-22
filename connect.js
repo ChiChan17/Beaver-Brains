@@ -1,4 +1,3 @@
-
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://kammerej:1216@cluster0.df9mmab.mongodb.net/?retryWrites=true&w=majority";
 const express = require('express')

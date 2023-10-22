@@ -9,7 +9,6 @@ function Login() {
         <div id="card-content">
           <div id="card-title">
             <h2>LOGIN</h2>
-            <div className="underline-title"></div>
             <a href="#" id="signup">
             <Link to="/createaccount">
               Don't have an account yet?
