@@ -12,7 +12,18 @@
     top: 10%;
     left: 35%;
     transform: translate(-50%, -50%);
-    -webkit-user-drag: none; /* Disable user drag on the card to avoid conflicts with the horizontal drag */
+    -webkit-user-drag: none; /* Disable user drag on the card to avoid conflicts with the horizontal drag */  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05); /* Scale up */
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   
   .content-left{
@@ -37,7 +48,9 @@
     margin-bottom: 20px;
   }
 
-  
+  .flipped-content{
+    user-select: none;
+  }
   
   .name {
     color: black;
@@ -82,3 +95,20 @@
   margin-bottom: 40px;
 }
 
+
+.slow-card {
+  transition: transform 0.5s ease; /* Adjust the duration (0.5s) to control the speed */
+}
+
+
+.swipe-right { //card return to center of the screen
+  transition: transform 4s ease; /* Adjust the duration (0.5s) to control the speed */
+  transform: translateX(0) !important; /* Return to the center */
+}
+
+.next-card-container {
+  position: absolute;
+  top: 60%; /* Vertically center the container */
+  left: 50%; /* Horizontally center the container */
+  transform: translate(-50%, -50%); /* Move it back to center */
+}

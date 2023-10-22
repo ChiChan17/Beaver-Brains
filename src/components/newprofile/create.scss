@@ -1,10 +1,5 @@
-*{
-    color: black;
-}
-
-
 body {
-    background: linear-gradient(#FF6000, black);
+    background: linear-gradient(#FF6000, #454545);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,7 +60,7 @@ label {
     border-radius: 21px;
     box-shadow: 0px 1px 8px #FF6000;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: white;
     font-family: "DM Sans", sans-serif;
     height: 42.3px;
     margin: 0 auto;

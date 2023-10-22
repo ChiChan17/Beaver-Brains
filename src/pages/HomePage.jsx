@@ -14,6 +14,12 @@ function HomePage() {
           <Link to="/updateprofile">Update Profile</Link>
         </button>
       </div> 
+
+      <div className="Log-out">
+        <button className="logout-button">
+          <Link to="/">Log Out</Link>
+        </button>
+      </div>
     </div>
 
   );
