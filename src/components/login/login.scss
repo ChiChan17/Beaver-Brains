@@ -2,6 +2,20 @@
     color: black;
 }
 
+#Title {
+    text-align: center;
+    user-select: none;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+
+h1 {
+    font-size: 30px; /* Adjust the font size as needed */    
+    font-weight: bolder;
+}
+  
 
 body {
     background: linear-gradient(#FF6000, black);
@@ -22,19 +36,13 @@ label {
     background: #fbfbfb;
     border-radius: 8px;
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
-    height: 489px;
-    margin: 6rem auto 8rem auto;
+    height: 409px;
+    margin: 0 auto;
     width: 330px;
 }
 
-#card-profile {
-    background: #fbfbfb;
-    border-radius: 8px;
-    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
-    height: 735px;
-    margin: 6rem auto 8rem auto;
-    width: 330px;
-}
+
+
 
 #card-content {
     padding: 12px 44px;
@@ -89,10 +97,11 @@ label {
     height: 1px;
     width: 100%;
     margin-top: 10px;
+
 }
 
 .form-content {
-    background: #fbfbfb;
+    background: #c70000;
     border: none;
     outline: none;
     padding-top: 4px;
